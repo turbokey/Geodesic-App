@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Створные измерения</string>
+    <string name="page1_title">Введите координаты створа А-В</string>
+    <string name="point_A">Точка А</string>
+    <string name="point_B">Точка B</string>
+    <string name="point_C">Точка С</string>
+    <string name="x">X =</string>
+    <string name="y">Y =</string>
+    <string name="h">H =</string>
+    <string name="determine_offset">Определение смещения по координатам точки С</string>
+    <string name="determine_coords">Определение координат точки С по смещениям</string>
+    <string name="enter">Ввод</string>
+    <string name="page2_title">Введите координаты точки С</string>
+    <string name="calculate">Вычислить</string>
+    <string name="page3_title">Введите смещения точки С</string>
+    <string name="length_a">Длина а=</string>
+    <string name="indentation_b">Отступ b=</string>
+    <string name="height_h">Высота h=</string>
+    <string formatted="true" name="result">X = %1$s\nY = %2$s\nH = %3$s</string>
+    <string formatted="true" name="result2">Длина: %1$s\nОтступ: %2$s\n%3$s</string>
+    <string name="points_A_and_B">Точки A и B</string>
+    <string name="empty_error">Поля не могут быть пустыми!</string>
+    <string name="clear_C">Очистить</string>
+    <string name="under">Ниже: %1$s</string>
+    <string name="higher">Выше: %1$s</string>
+    <string name="save">Сохранить</string>
+    <string name="exit">Выход</string>
+    <string name="group_not_selected">[Выберите файл...]</string>
+    <string name="save_error">Для сохранения выберите файл!</string>
+    <string name="file_name_error">Файл с таким именем уже существует!</string>
+    <string name="save_in">Сохранить в:</string>
+    <string name="group_creation">Создание новой группы</string>
+    <string name="type_group_name">Введите имя файла для сохранения результатов:</string>
+    <string name="positive_answer">Да</string>
+    <string name="cansel_answer">Отмена</string>
+    <string name="no_groups">Пусто</string>
+    <string name="dir_name">/Результаты расчёта створных измерений</string>
+    <string name="offset">type = offset</string>
+    <string name="coords">type = coords</string>
+    <string name="saved">Сохранено</string>
+    <string name="saving_error">Ошибка сохранения</string>
+    <string name="savings">Сохранения</string>
+    <string name="delete_alert_title">Удаление</string>
+    <string name="delete_alert">Вы уверены, что хотите удалить %1$s?</string>
+    <string name="open_file_error">Ошибка открытия файла</string>
+    <string name="question_btn">О приложении</string>
+    <dimen name="table_width">0dp</dimen>
+    <dimen name="table_margin">1dp</dimen>
+    <string name="resultat">Расчёт</string>
+    <string name="instruction">Во многих последних моделях электронных тахеометров реализована функция «Вынос линии», но, к сожалению, в более ранних моделях эта необходимая программа отсутствует. Данное приложение предоставляет вам возможность с помощью смартфона или другого устройства на базе ОС Android, реализовать эту возможность на устаревших приборах. Программа позволяет вынести в натуру точку на заданном расстоянии от базовой линии, а также определить расстояния от базовой линии до измеренной точки. Для выполнения вычислений необходимо ввести координаты базовой линии (Точки А и В), измерить координаты определяемой точки (Точка С), и получить результат: расстояние по створу от точки А, смещение в плане и по высоте, относительно створа, определяемой точки С, или ввести расстояние, смещение в плане и по высоте, чтобы получить координаты для выноса в натуру точки С. Желаем приятной работы.</string>
+    <string name="permission_needed">Для возможности сохранения результатов расчётов необходимо предоставить данное разрешение. В противном случае эта функция будет недоступна</string>
+    <string name="grant_perm_button">Предоставить разрешение</string>
+    <string name="cancel_perm_button">Больше не спрашивать</string>
+    <string name="minus_hint">Двойное нажатие - знак \"—\"</string>
+    <string name="meter">\ м</string>
+</resources>

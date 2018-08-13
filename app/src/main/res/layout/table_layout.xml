@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark" />
+    <TableLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black">
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_margin="1dp"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="#ffcccccc"
+                android:text="@string/point_A"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="#ffcccccc"
+                android:text="@string/point_B" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="#ffcccccc"
+                android:text="@string/point_C" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:gravity="center_horizontal"
+                android:layout_weight="1.3"
+                android:layout_margin="1dp"
+                android:background="#ffcccccc"
+                android:text="@string/resultat" />
+        </TableRow>
+    </TableLayout>
+    <ScrollView
+    android:id="@+id/table_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="2dp"
+    android:layout_marginLeft="2dp">
+    <TableLayout
+        android:id="@+id/maintable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black">
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Col1" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Col2" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Col3" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.3"
+                android:text="Col4" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
+</LinearLayout>
